@@ -7,7 +7,7 @@
 import { RestliClient } from 'linkedin-api-client';
 import dotenv from 'dotenv';
 
-dotenv.config();
+require('dotenv').config('/.env');
 
 async function main(): Promise<void> {
   const restliClient = new RestliClient();

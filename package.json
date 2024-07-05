@@ -3,6 +3,16 @@
     "axios": "^1.7.2",
     "dotenv": "^16.4.5",
     "linkedin-api-client": "^0.3.0",
-    "lodash": "^4.17.21"
-  }
+    "lodash": "^4.17.21",
+    "qs": "^6.12.2"
+  },
+  "name": "linkedin-scraper",
+  "version": "1.0.0",
+  "main": "ProfileScraper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
